@@ -22,7 +22,8 @@ public class PayCase
 
 
     @Test
-    public void test() throws UnsupportedEncodingException, InterruptedException {
+    public void test() throws UnsupportedEncodingException, InterruptedException
+    {
         androidTest();
         DBConnection dbConnection = new DBConnection();
         //dbConnection.select();
@@ -30,17 +31,20 @@ public class PayCase
     }
 
     @BeforeTest
-    public void setUp() throws MalformedURLException {
+    public void setUp() throws MalformedURLException
+    {
         setUpAndroid();
     }
 
     @AfterClass
-    public void tearDown() throws Exception {
+    public void tearDown() throws Exception
+    {
         androidDriver.quit();
         //setUpIos();
     }
 
-    public void setUpAndroid() throws MalformedURLException {
+    public void setUpAndroid() throws MalformedURLException
+    {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         File app = new File("/Users/wangbingfei/Downloads/app-zmall-release-1.1.0.apk");
         // 不需要安装的话就去掉这个
@@ -57,7 +61,8 @@ public class PayCase
         androidDriver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     }
 
-    public void setUpIos() throws MalformedURLException {
+    public void setUpIos() throws MalformedURLException
+    {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("deviceName", "Test");
@@ -69,7 +74,8 @@ public class PayCase
         iosDriver = new IOSDriver<WebElement>(new URL("http://0.0.0.0:4727/wd/hub"), capabilities);
     }
 
-    public void androidTest() throws InterruptedException {
+    public void androidTest() throws InterruptedException
+    {
         androidDriver.findElement(By.id("com.isg.ZMall:id/text_ed")).click();
         androidDriver.findElement(By.id("com.isg.ZMall:id/text_ed")).sendKeys("18621594181");
         androidDriver.findElement(By.id("com.isg.ZMall:id/get_ver_code_btn")).click();
@@ -83,12 +89,13 @@ public class PayCase
         //登陆
         androidDriver.findElement(By.id("com.isg.ZMall:id/login_submit")).click();
 
-        androidDriver.runAppInBackground(15);
-        //Thread.sleep(3000);
-        //芝蚂收益
-        androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget."
-                + "FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view."
-                + "View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android."
-                + "widget.ScrollView/android.view.View/android.view.View[2]/android.widget.TextView")).click();
+        androidDriver.runAppInBackground(20);
+       // Thread.sleep(3000);
+
+        androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/" +
+                "android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget" +
+                ".FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view." +
+                "View[1]/android.view.View/android.widget.ScrollView/android.view.View/android.view.View[2]/android." +
+                "widget.TextView")).click();
     }
 }

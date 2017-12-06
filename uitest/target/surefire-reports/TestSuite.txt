@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 132.03 sec <<< FAILURE! - in TestSuite
+test(com.zmc.PayCase)  Time elapsed: 80.203 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/wangbingfei/Downloads/app-zmall-release-1.1.0.apk, appPackage=com.isg.ZMall, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.isg.mall.act.WelcomeAct, desired={app=/Users/wangbingfei/Downloads/app-zmall-release-1.1.0.apk, appPackage=com.isg.ZMall, appActivity=com.isg.mall.act.WelcomeAct, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=192.168.56.101:5555, resetKeyboard=false}, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
+Session ID: 16c920db-2e9a-43ae-96ce-70ea0a5d351a
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.ScrollView/android.view.View/android.view.View[2]/android.widget.TextView}
+	at com.zmc.PayCase.androidTest(PayCase.java:95)
+	at com.zmc.PayCase.test(PayCase.java:27)
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="132.03" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="2017.2.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/wangbingfei/uitest"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/x6/yqt3g7z10lz4rqmj0ptg56rr0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/wangbingfei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/wangbingfei"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="wangbingfei"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven2/boot/classworlds-1.1.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.6 --no-plugin-registry -s /Users/wangbingfei/apache-maven-3.5.0/conf/settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/wangbingfei/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="test" classname="com.zmc.PayCase" time="80.203">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 67 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;wangbingfeideMacBook-Pro.local&apos;, ip: &apos;192.168.22.194&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{app=/Users/wangbingfei/Downloads/app-zmall-release-1.1.0.apk, appPackage=com.isg.ZMall, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.isg.mall.act.WelcomeAct, desired={app=/Users/wangbingfei/Downloads/app-zmall-release-1.1.0.apk, appPackage=com.isg.ZMall, appActivity=com.isg.mall.act.WelcomeAct, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=192.168.56.101:5555, resetKeyboard=false}, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]&#10;Session ID: 16c920db-2e9a-43ae-96ce-70ea0a5d351a&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.ScrollView/android.view.View/android.view.View[2]/android.widget.TextView}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'wangbingfeideMacBook-Pro.local', ip: '192.168.22.194', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/wangbingfei/Downloads/app-zmall-release-1.1.0.apk, appPackage=com.isg.ZMall, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.56.101:5555, platform=LINUX, deviceUDID=192.168.56.101:5555, appActivity=com.isg.mall.act.WelcomeAct, desired={app=/Users/wangbingfei/Downloads/app-zmall-release-1.1.0.apk, appPackage=com.isg.ZMall, appActivity=com.isg.mall.act.WelcomeAct, platformVersion=5.0, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=192.168.56.101:5555, resetKeyboard=false}, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=Clone - Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=unknown, resetKeyboard=false}]
+Session ID: 16c920db-2e9a-43ae-96ce-70ea0a5d351a
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.ScrollView/android.view.View/android.view.View[2]/android.widget.TextView}
+	at com.zmc.PayCase.androidTest(PayCase.java:95)
+	at com.zmc.PayCase.test(PayCase.java:27)
+</failure>
+    <system-err><![CDATA[十二月 06, 2017 1:50:29 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+十二月 06, 2017 1:50:34 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
